@@ -77,6 +77,7 @@ nav:
   - 'jsPsych.pluginAPI': 'reference/jspsych-pluginAPI.md'
 - Plugins:
   - 'List of Plugins': 'plugins/list-of-plugins.md'
+  - 'Tags': 'plugins/tags.md'
   - 'animation': 'plugins/animation.md'
   - 'audio-button-response': 'plugins/audio-button-response.md'
   - 'audio-keyboard-response': 'plugins/audio-keyboard-response.md'
