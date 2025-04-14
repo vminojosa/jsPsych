@@ -1,3 +1,9 @@
+---
+tags:
+  - HTML5
+  - Keyboard Response
+---
+
 # html-keyboard-response
 
 Current version: 2.0.0. [See version history](https://github.com/jspsych/jsPsych/blob/main/packages/plugin-html-keyboard-response/CHANGELOG.md).
