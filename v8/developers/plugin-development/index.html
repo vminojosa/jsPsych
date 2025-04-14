@@ -133,43 +133,6 @@
     
     
     
-      <label class="md-header__button md-icon" for="__search">
-        
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
-      </label>
-      <div class="md-search" data-md-component="search" role="dialog">
-  <label class="md-search__overlay" for="__search"></label>
-  <div class="md-search__inner" role="search">
-    <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
-      <label class="md-search__icon md-icon" for="__search">
-        
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
-        
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
-      </label>
-      <nav class="md-search__options" aria-label="Search">
-        
-        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
-          
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
-        </button>
-      </nav>
-      
-    </form>
-    <div class="md-search__output">
-      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
-        <div class="md-search-result" data-md-component="search-result">
-          <div class="md-search-result__meta">
-            Initializing search
-          </div>
-          <ol class="md-search-result__list" role="presentation"></ol>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-    
     
       <div class="md-header__source">
         <a href="https://github.com/jspsych/jsPsych" title="Go to repository" class="md-source" data-md-component="source">
@@ -334,11 +297,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../../tutorials/video-tutorials/" class="md-nav__link">
+      <a href="../../tutorials/community-tutorials/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Video Tutorials
+    Community Tutorials
   </span>
   
 
@@ -964,6 +927,27 @@
   
   
     <li class="md-nav__item">
+      <a href="../../reference/jspsych-utils/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    jsPsych.utils
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../reference/jspsych-pluginAPI/" class="md-nav__link">
         
   
@@ -1032,6 +1016,27 @@
   
   <span class="md-ellipsis">
     List of Plugins
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../plugins/tags/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tags
   </span>
   
 
@@ -2446,20 +2451,14 @@
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Requirements for a plugin">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#templates" class="md-nav__link">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#plugin-templates" class="md-nav__link">
     <span class="md-ellipsis">
-      Templates
+      Plugin templates
     </span>
   </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -2497,6 +2496,21 @@
       static info
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="static info">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#parameter-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      Parameter Types
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
         
@@ -2587,15 +2601,6 @@
   <a href="#advice-for-writing-plugins" class="md-nav__link">
     <span class="md-ellipsis">
       Advice for writing plugins
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#plugin-templates" class="md-nav__link">
-    <span class="md-ellipsis">
-      Plugin templates
     </span>
   </a>
   
@@ -2827,6 +2832,69 @@
   
 
     
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Newsletter
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            Newsletter
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../newsletter/subscribe/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Subscribe
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
   </ul>
 </nav>
                   </div>
@@ -2860,20 +2928,14 @@
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Requirements for a plugin">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#templates" class="md-nav__link">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#plugin-templates" class="md-nav__link">
     <span class="md-ellipsis">
-      Templates
+      Plugin templates
     </span>
   </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -2911,6 +2973,21 @@
       static info
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="static info">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#parameter-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      Parameter Types
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
         
@@ -3006,15 +3083,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#plugin-templates" class="md-nav__link">
-    <span class="md-ellipsis">
-      Plugin templates
-    </span>
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -3041,8 +3109,9 @@
 <li><a href="#trial">A <code>trial()</code> method</a> that accepts an <code>HTMLElement</code> as its first argument and an <code>object</code> of trial parameters as its second argument. There is an optional third argument to <a href="#asynchronous-loading">handle the <code>on_load</code> event</a> in certain cirumstances. The <code>trial()</code> method should <em>either</em> invoke <code>jsPsych.finishTrial()</code> or should be an <code>async</code> function that returns a data object to <a href="#save-data">end the trial and save data</a>.</li>
 <li><a href="#static-info">A static <code>info</code> property</a> on the class that contains an object describing the plugin's parameters, data generated, and version.</li>
 </ul>
-<h3 id="templates">Templates<a class="headerlink" href="#templates" title="Permanent link">&para;</a></h3>
-<p>Plugins can be written in either plain JavaScript or in TypeScript. Template files for both <a href="https://github.com/jspsych/jspsych-contrib/blob/main/templates/plugin-template-js/src/index.js">JavaScript</a> and <a href="https://github.com/jspsych/jspsych-contrib/blob/main/templates/plugin-template-ts/src/index.ts">TypeScript</a> are available in the <a href="https://github.com/jspsych/jspsych-contrib/">jspsych-contrib repository</a>.</p>
+<h2 id="plugin-templates">Plugin templates<a class="headerlink" href="#plugin-templates" title="Permanent link">&para;</a></h2>
+<p>Templates for plugins are available in the <a href="https://github.com/jspsych/jspsych-contrib">jspsych-contrib</a> repository. Plugins can be written in either plain <a href="https://github.com/jspsych/jspsych-contrib/blob/main/templates/plugin-template-js/src/index.js">JavaScript</a> or in <a href="https://github.com/jspsych/jspsych-contrib/blob/main/templates/plugin-template-ts/src/index.ts">TypeScript</a>.</p>
+<p>To get started with a template, we recommend using the CLI tool that we have published in jspsych-contrib. This automates the setup of a new plugin in either JavaScript or TypeScript. Additional information about the CLI tool is available in the <a href="https://github.com/jspsych/jspsych-contrib?tab=readme-ov-file#creating-a-new-plugin-or-extension"><code>README</code></a> of jspsych-contrib. </p>
 <h2 id="plugin-components">Plugin components<a class="headerlink" href="#plugin-components" title="Permanent link">&para;</a></h2>
 <h3 id="constructor">constructor()<a class="headerlink" href="#constructor" title="Permanent link">&para;</a></h3>
 <p>The plugin's <code>constructor()</code> will be passed a reference to the instance of the <code>JsPsych</code> class that is running the experiment. The constructor should store this reference so that the plugin can access functionality from the core library and its modules.</p>
@@ -3077,6 +3146,10 @@
 <span class="w">  </span><span class="p">...</span>
 <span class="p">}</span>
 </code></pre></div>
+<details class="info">
+<summary>Automatic versioning with custom build environments</summary>
+<p>If you are using a custom build environment that imports its own <code>tsconfig.json</code> file that does not extend jsPsych's, and you want to use this automatic versioning syntax, you must add <code>"resolveJsonModule": true</code> to the config's <code>compilerOptions</code> object.</p>
+</details>
 <p>If you are not using a build environment that supports <code>import</code> and <code>package.json</code> (such as writing a plain JS file), you can manually enter the <code>version</code> as a string.</p>
 <div class="highlight"><pre><span></span><code><span class="kd">const</span><span class="w"> </span><span class="nx">info</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span>
 <span class="w">  </span><span class="p">...</span>
@@ -3163,6 +3236,146 @@
 <span class="p">}</span>
 
 <span class="nx">MyAwesomePlugin</span><span class="p">.</span><span class="nx">info</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">info</span><span class="p">;</span>
+</code></pre></div>
+<h4 id="parameter-types">Parameter Types<a class="headerlink" href="#parameter-types" title="Permanent link">&para;</a></h4>
+<p>jsPsych currently has support for the following parameter types:</p>
+<table>
+<thead>
+<tr>
+<th>Type Name</th>
+<th>Description</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>BOOL</td>
+<td>A simple truth value.</td>
+<td><code>true</code> or <code>false</code></td>
+</tr>
+<tr>
+<td>STRING</td>
+<td>A set of characters.</td>
+<td>"Continue"</td>
+</tr>
+<tr>
+<td>INT</td>
+<td>A value that supports whole numbers.</td>
+<td>12</td>
+</tr>
+<tr>
+<td>FLOAT</td>
+<td>A value that supports decimal numbers.</td>
+<td>5.55</td>
+</tr>
+<tr>
+<td>FUNCTION</td>
+<td>A Javascript function, tends to process multiple objects in an array from other parameters.</td>
+<td><code>function(tries) { return "&lt;p&gt;You have " + tries + " tries left." }</code></td>
+</tr>
+<tr>
+<td>KEY</td>
+<td>A single key, with support for function keys like arrows and spacebars.</td>
+<td><code>"j"</code>, <code>"n"</code>, <code>"ArrowLeft"</code></td>
+</tr>
+<tr>
+<td>KEYS</td>
+<td>Either an array of keys, or the string <code>"ALL_KEYS"</code> or <code>"NO_KEYS"</code>, indicating their respective inclusion/exclusion criterea.</td>
+<td><code>["f", "j"]</code></td>
+</tr>
+<tr>
+<td>SELECT</td>
+<td>A list of strings that a developer can choose between as a parameter.</td>
+<td><code>["cm", "px", "em"]</code></td>
+</tr>
+<tr>
+<td>HTML_STRING</td>
+<td>A string with HTML markup.</td>
+<td><code>"&lt;p&gt;This is the prompt.&lt;/p&gt;"</code></td>
+</tr>
+<tr>
+<td>IMAGE</td>
+<td>A string that contains the path to an image file.</td>
+<td><code>"my_image.jpg"</code></td>
+</tr>
+<tr>
+<td>AUDIO</td>
+<td>A string that contains the path to an audio file.</td>
+<td><code>"my_sound.mp3"</code></td>
+</tr>
+<tr>
+<td>VIDEO</td>
+<td>A string that contains the path to a video file.</td>
+<td><code>"my_video.mp4"</code></td>
+</tr>
+<tr>
+<td>OBJECT</td>
+<td>A general JSON object (key-value pairs).</td>
+<td><code>{ rt: 350, response: "hello!", correct: true }</code></td>
+</tr>
+<tr>
+<td>COMPLEX</td>
+<td>A JSON object that one can specify nested parameters for.</td>
+<td><code>{ rt: 350, response: "hello!", correct: true }</code></td>
+</tr>
+<tr>
+<td>TIMELINE</td>
+<td>A jsPsych timeline object with trials.</td>
+<td><code>[{ type: jsPsychKeyboardResponse, stimulus: 'my_image.jpg }]</code></td>
+</tr>
+</tbody>
+</table>
+<p>Within each parameter, you may also specify if it is an array of the specific type. For example, a parameter that requires a list of button labels would be described as:</p>
+<div class="highlight"><pre><span></span><code><span class="kd">const</span><span class="w"> </span><span class="nx">info</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="c1">// ...</span>
+<span class="w">  </span><span class="nx">parameters</span><span class="o">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="cm">/** The labels to be displayed on each button. */</span>
+<span class="w">    </span><span class="nx">labels</span><span class="o">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nx">type</span><span class="o">:</span><span class="w"> </span><span class="nx">ParameterType</span><span class="p">.</span><span class="nx">STRING</span><span class="p">,</span>
+<span class="w">      </span><span class="nx">array</span><span class="o">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span>
+<span class="w">      </span><span class="k">default</span><span class="o">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;Pause&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;Play&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;Continue&quot;</span><span class="p">]</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">  </span><span class="p">},</span>
+<span class="w">  </span><span class="c1">// ...</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>Specific parameter types also have their own special markup. For <code>ParameterType.SELECT</code>, you specify the options one can choose with an <code>options</code> field, and then the <code>default</code> field must be within that field.</p>
+<div class="highlight"><pre><span></span><code><span class="kd">const</span><span class="w"> </span><span class="nx">info</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="c1">// ...</span>
+<span class="w">  </span><span class="nx">parameters</span><span class="o">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="cm">/** The units of measure used to display the length and width of the stimulus. */</span>
+<span class="w">    </span><span class="nx">units</span><span class="o">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nx">type</span><span class="o">:</span><span class="w"> </span><span class="nx">ParameterType</span><span class="p">.</span><span class="nx">SELECT</span><span class="p">,</span>
+<span class="w">      </span><span class="nx">options</span><span class="o">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;em&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;px&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;vh&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;vw&quot;</span><span class="p">],</span>
+<span class="w">      </span><span class="k">default</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;px&quot;</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">  </span><span class="p">},</span>
+<span class="w">  </span><span class="c1">// ...</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>For <code>ParameterType.COMPLEX</code>, we may specify the underlying fields in the object with the <code>nested</code> field. This acts in the same way as us defining parameters regularly, only we are now just delineating the fields within the object itself.</p>
+<div class="highlight"><pre><span></span><code><span class="kd">const</span><span class="w"> </span><span class="nx">info</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="c1">// ...</span>
+<span class="w">  </span><span class="nx">parameters</span><span class="o">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="cm">/** Where to display the location of the stimuli. */</span>
+<span class="w">    </span><span class="nx">locations</span><span class="o">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nx">type</span><span class="o">:</span><span class="w"> </span><span class="nx">ParameterType</span><span class="p">.</span><span class="nx">COMPLEX</span><span class="p">,</span>
+<span class="w">      </span><span class="nx">array</span><span class="o">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span>
+<span class="w">      </span><span class="k">default</span><span class="o">:</span><span class="w"> </span><span class="kc">undefined</span><span class="p">,</span>
+<span class="w">      </span><span class="nx">nested</span><span class="o">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="cm">/** The x-coordinate of the stimulus, in the units from the `units` field. */</span>
+<span class="w">        </span><span class="nx">x</span><span class="o">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">          </span><span class="nx">type</span><span class="o">:</span><span class="w"> </span><span class="nx">ParameterType</span><span class="p">.</span><span class="nx">INT</span>
+<span class="w">        </span><span class="p">},</span>
+<span class="w">        </span><span class="cm">/** The y-coordinate of the stimulus. */</span>
+<span class="w">        </span><span class="nx">y</span><span class="o">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">          </span><span class="nx">type</span><span class="o">:</span><span class="w"> </span><span class="nx">ParameterType</span><span class="p">.</span><span class="nx">INT</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">      </span><span class="p">}</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">  </span><span class="p">},</span>
+<span class="w">  </span><span class="c1">// ...</span>
+<span class="p">}</span>
 </code></pre></div>
 <h2 id="plugin-functionality">Plugin functionality<a class="headerlink" href="#plugin-functionality" title="Permanent link">&para;</a></h2>
 <p>Inside the <code>.trial()</code> method you can do pretty much anything that you want, including modifying the DOM, setting up event listeners, and making asynchronous requests. In this section we'll highlight a few common things that you might want to do as examples.</p>
@@ -3288,8 +3501,6 @@
 <h2 id="advice-for-writing-plugins">Advice for writing plugins<a class="headerlink" href="#advice-for-writing-plugins" title="Permanent link">&para;</a></h2>
 <p>If you are developing a plugin with the aim of including it in the main jsPsych repository we encourage you to follow the <a href="../contributing/#contributing-to-the-codebase">contribution guidelines</a>. </p>
 <p>We also recommend that you make your plugin <em>as general as possible</em>. Consider using parameters to give the user of the plugin as many options for customization as possible. For example, if you have any text that displays in the plugin including things like button labels, implement the text as a parameter. This allows users running experiments in other languages to replace text values as needed.</p>
-<h2 id="plugin-templates">Plugin templates<a class="headerlink" href="#plugin-templates" title="Permanent link">&para;</a></h2>
-<p>Templates for plugins are available in the <a href="https://github.com/jspsych/jspsych-contrib">jspsych-contrib</a> repository. There is a command-line tool for generating a new plugin from these templates in that repository. See the README file in the jspsych-contrib repository for more information.</p>
 
 
 
