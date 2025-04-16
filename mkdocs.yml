@@ -1,4 +1,7 @@
 site_name: jsPsych
+plugins: 
+  - tags:
+      tags_file: plugins/tags.md
 theme:
   name: 'material'
   language: 'en'
@@ -7,8 +10,6 @@ theme:
     accent: 'orange'
   logo: 'img/jspsych-logo-no-text-mono.svg'
   favicon: 'img/jspsych-favicon.png'
-plugins:
-  - tags:
 extra:
   social:
     - icon: 'fontawesome/brands/github'
