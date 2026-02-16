@@ -6,6 +6,9 @@ on:
     branches:
       - relabeling
 
+env:
+  GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
 jobs:
   label-issues:
     runs-on: ubuntu-latest
